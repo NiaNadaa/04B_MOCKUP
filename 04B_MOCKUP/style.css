@@ -1,0 +1,178 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 5px;
+}
+
+hr{
+    border: 1px solid grey;
+}
+footer hr{
+    border: 1px solid white;
+}
+
+a:visited{
+    color:white
+}
+a:hover{
+    background-color: wheat;
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 400;
+    padding: 20px;
+    border-bottom: 1px solid rgb(133, 133, 133);
+}
+.headerLeft{
+    display: flex;
+    flex-direction: column;
+    color:grey;
+    
+}
+.title{
+    font-size:xx-large;
+    font-weight:normal;
+    margin-bottom: -10px;
+}
+.headerLinks{
+    background-color:indianred;
+    width: 55%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 16px;
+    border-radius: 10px;
+}
+.headerLinks a{
+    text-decoration: none;
+    color:white
+    
+}
+
+
+.mainTop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mainTop p{
+    font-style: italic;
+    font-size: large;
+    padding: 25px;
+    justify-content: center;
+}
+.mainTop img{
+    size: 960px;
+    padding: 25px;
+}
+.mainServices{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mainTitle{
+    background-color:indianred;
+    padding: 8px;
+    border-radius: 10px;
+    color:white;
+}
+
+
+.servicesCards{
+    display:flex;
+    justify-content: space-between;
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+}
+.card11{
+    display: flex;
+    align-items: center;
+}
+.card12{
+    color:grey;
+    font-weight: lighter;
+}
+.card12 a{
+    text-decoration: none;
+    color:rgb(173, 66, 66);
+    
+}
+
+
+.mainPlayers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.playersCards{
+    display: flex;
+}
+
+.card2{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+.card2 a{
+    text-decoration: none;
+    color:rgb(173, 66, 66);
+    
+}
+
+.mainWork{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.workImg{
+    justify-content: space-evenly;
+}
+.workImg img{
+    padding: 0px 15px 0px 15px;
+}
+
+footer{
+background-color: rgb(184, 184, 184);
+color:rgb(92, 92, 92);
+}
+.footerTop{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerCompany{
+    width: 35%;
+}
+.footerContact{
+    width: 25%;
+}
+.blog{
+    display: flex;
+    flex-direction: column;
+}
+.footerLatest img{
+    border: 1px solid black;
+    padding: 4px;
+}
+
+.blog1{
+    display: flex;
+}
+.blog1 p{
+    color:rgb(92, 92, 92);
+}
+.blog1 h5{
+    color:indianred;
+}
+.bottomTitle{
+    padding: 8px 0px 8px 0px;
+    font-weight: lighter;
+}
+.footerBottom{
+    display: flex;
+    justify-content: space-between;
+}
